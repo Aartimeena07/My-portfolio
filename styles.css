@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1ee9d4;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+header {
+    background-color: #3e20d5;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+}
+.main h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.main p {
+    font-size: 20px;
+}
+.img1{
+    height: 300px;
+    width: 300px;
+    background-image: url(img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0; /* Initially hide sections */
+    transform: translateX(-100px); /* Start position for slide-in */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth transition */
+}
+
+h1, h2 {
+    text-align: center;
+}
+#skills{
+    display: flex;
+    
+}
+.skill{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.img2{
+    height: 300px;
+    width: 300px;
+    background-image: url(img3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills ul li {
+    display: inline-block;
+    background-color: #3e20d5;
+    color: #fff;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+#projects{
+    background-color: #3e20d5;
+}
+
+.project-card {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+#contact h1 {
+    font-size: 30px;
+}
+
+.contact-i{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    justify-content: space-around;
+    margin-left: 640px;
+    margin-top: 5px;
+    
+}
+.contact i {
+    margin-left: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.slide-in {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+.slide-in.show {
+    opacity: 1;
+    transform: translateX(0);
+}
