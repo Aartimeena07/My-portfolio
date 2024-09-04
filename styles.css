@@ -145,3 +145,10 @@ footer {
     opacity: 1;
     transform: translateX(0);
 }
+.resume{
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
